@@ -1,21 +1,22 @@
 # project name
-Calculator application using Angular
+Angular Calculator
+
+An application is used for performing simple arthimatic calculations
 
 # Project Status
-This project is currently in development. This webpage is used to perform arithematic operations.  
+This project is currently in development. Users can perform simple day to day calculations.
 
-
-# Installations
-
-Clone down this project by using below command.
-
-git clone https://github.com/PraveenRanguu/Calci.git
-
-You will need node and npm installed globally on your machine.
+# Installation and Setup Instructions
+Clone down this repository : https://github.com/PraveenRanguu/Calci.git .
 
 Installation:
-npm install ; this will install node_module 
-ng server to run the application
+npm install -g @angular/cli ; this will install angular/cli gobally.
+npm install ; this will install node_modules.
 
+To Start Server:
+ng serve . and this application runs on http://localhost:4200/
+ 
 # folder structure
-src/app conntains all the reusable components
+ In MyComponents(folder): i.e src/app/MyComponents
+ MyComponent folder contain all the  Components which can be reusable.
+ 
